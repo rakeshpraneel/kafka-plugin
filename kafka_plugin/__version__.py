@@ -1,0 +1,6 @@
+__title__ = "kafka_plugin"
+__description__ = "PYTHON module to create and integrate kafka consumer"
+__version__ = "1.0.1"
+__author__ = "Rakesh"
+__copyright__ = "Copyright Rakesh Chandrasekar"
+__author_email__ = "rakeshpraneel@gmail.com"

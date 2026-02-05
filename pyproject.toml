@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kafka_plugin"
+version = "1.0.1"
+description = "PYTHON module to create and integrate kafka consumer"
+readme = "Readme.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "confluent-kafka==2.13.0",
+    "PyYAML==6.0.3"
+]
+authors = [
+  { name="Rakesh", email="rakeshpraneel@gmail.com" }
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Source = "https://github.com/rakeshpraneel/kafka-plugin"
+
+[tool.setuptools]
+packages = ["kafka_plugin"]

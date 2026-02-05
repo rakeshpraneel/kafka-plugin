@@ -1,0 +1,9 @@
+app_constants:
+    kafka_topics: ["SAMPLE.TOPIC"]
+    kafka_principal: "sample_principal"
+    kafka_servicename: "sample_servicename"
+    kafka_keytab: "./path/samplefile.keytab"
+    kafka_sslca: "./path/sample.pem"
+    kafka_groupid: "SAMPLE_GROUPID"
+    kafka_servers: "server1:9092 server2:9092"
+    queue_size: 10000
